@@ -2,15 +2,15 @@
 
 ### Description
 
-I decided to create a cryptocurrency predictor that not only takes in the usual assortment of numerical data, but also receives articles written about the specific currency as input. 
+I decided to create a cryptocurrency predictor that takes the term day trading literally.  
 
 ### Capstone Proposal
 
 - Domain Background
   - Finance
-    - Any time someone makes an investment it is a gamble. Historically that has been going on forever and it goes much further than people's money, every time a dog invests in taking a dump inside, it is gambling it won't get it's nose shoved in it. This project aims to accurately and reliable predict the short term movement of stocks to lessen the risks associated with investing in them. 
-    - Successfully building a model that accurately and reliably predicts the movement of a stock would implicate a much safer form of investing. 
-    - The most prominent use case of this project would be to make money through lots of short term investments. 
+    - Day trading is a very risky and time consuming practice. Day traders typically make multiple trades a day.  
+    - This project aims to create a model that accurately predicts the end of day price, each day.
+    - The most prominent use case of this project would be to make money through only end of day trades. This would make "day trading" an attainable option for somebody with a full time job. 
 - Problem Statement
   - More accurately predict the future price of any stock or cryptocurrency through a classification model that takes in a variety of features, including articles, as input and produces the predicted closing stock price in USD for the following day.
   - Past work I'll be referencing in this project comes from the most popular cryptocurrency predictor found on Github, khuangaf's [CryptocurrencyPrediction](https://github.com/khuangaf/CryptocurrencyPrediction). A key difference right away between the data used to train khuangaf's model's and the data used to train my model's are the number of features, with khuangaf's data coming from [poloniex](https://docs.poloniex.com/#introduction) and containing only 5 features. Please see khuangaf's [Data Collection Notebook](https://github.com/khuangaf/CryptocurrencyPrediction/blob/master/DataCollection.ipynb). Whereas the data my model's will be trained with contains 32 features, 33 when including the articles sentiment analysis. Please see a detailed explanation of all the features [here](https://coinmetrics.io/community-data-dictionary/).

@@ -21,7 +21,7 @@ I decided to create a cryptocurrency predictor that takes the term day trading l
 - Solution Statement
   - The above problem will be solved by refining the models and data until it becomes profitable. 
   - Hyperparameter tuning will be performed on the xgboost models.  
-  - The features dimensionality will not be reduced on any models initially. PCA analysis will be tested on the xgboost models. Dimensionality will also be reduced through deductive reasoning.   
+  - The features dimensionality will not be reduced on any models initially. PCA analysis will be tested on the xgboost models. If PCA analysis is able lower the test score, then it will also be tested on the DeepAR model. Dimensionality will also be reduced through deductive reasoning.   
 - Benchmark Model
   - Khuangaf's model will be considered the benchmark, although the key differences mentioned above make it unable to be directly compared. Instead the following models will all be compared with eachother:
     - XGBoost Model trained with all features from Coin Metrics

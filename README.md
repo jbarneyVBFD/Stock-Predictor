@@ -49,5 +49,5 @@ I decided to create a cryptocurrency predictor that takes the term day trading l
       * Uploading data to S3
       * Instantiating and training a DeepAR estimator as well as XGBoost estimator
       * Deploying a model and creating a predictor
-      * Evaluating the predictor through simulating buying and selling Litecoin based on model predictions over 30 day's
+      * Evaluating the predictor's profitability through simulating buying and selling Litecoin based on model predictions over the test data set
       * Evaluating the predictor by calculating the test loss

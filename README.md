@@ -1,5 +1,19 @@
 # Crypto-Predictor
 
+## Getting Started
+
+To run this repo, be sure to install the following environment and libraries
+
+- Python 3.6
+- pandas
+- sagemaker
+- boto3
+- numpy
+- matplotlib
+- seaborn
+- sklearn
+
+
 ### Description
 
 I decided to create a cryptocurrency predictor that takes the term day trading literally.  
